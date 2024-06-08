@@ -1,0 +1,153 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  #about-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1200px) {
+  section {
+    display: block;
+  }
+  nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    display: flex;
+  }
+  .Profile-pic {
+    width: fit-content;
+    margin: 3rem;
+    height: 46vh;
+  }
+  .profile {
+    width: 100%;
+    height: 100%;
+  }
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+    z-index: auto;
+  }
+  #hamburger-menu {
+    z-index: 2;
+  }
+  .Profile-pic {
+    z-index: 0;
+  }
+  .section__text__p1 {
+    margin-top: 1rem;
+  }
+  .icon {
+    padding-left: 2rem;
+  }
+  .arrow-prj {
+    display: none;
+  }
+  /* about */
+  #about {
+    margin-top: 5rem;
+  }
+  .section-container {
+    display: block;
+  }
+  .Know-More {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .section__pic-container {
+    width: 80%;
+    height: auto;
+    margin-left: 2.5rem;
+  }
+  .about-pic {
+    width: 100%;
+    height: 100%;
+  }
+  .details-container {
+    width: 80%;
+    margin-right: 0.5rem;
+  }
+  /* experience */
+  #experience {
+    margin: 1rem;
+  }
+  .article-container {
+    gap: 0.5rem;
+  }
+  .exp-sub-title {
+    font-size: 1rem;
+  }
+  article {
+    min-width: 100%;
+    text-align: center;
+  }
+  .article-container {
+    display: flex;
+  }
+  .prj-details-container {
+    display: block;
+  }
+  #profile,
+  .section__text {
+    display: block;
+  }
+  .icon-arrow,
+  .icon1 {
+    display: none;
+  }
+  .section,
+  .section-container {
+    height: fit-content;
+    display: block;
+  }
+  section {
+    margin: 0 5%;
+  }
+  /* contact */
+  #contact {
+    margin-top: 1rem;
+    display: block;
+    height: fit-content;
+  }
+  /* .contact{
+        height: 80vh;
+       align-items: start;
+       margin-top: 0;
+    } */
+  .upper-container {
+    text-align: center;
+    font-size: small;
+    display: block;
+    height: fit-content;
+  }
+  .nav-links {
+    display: flex;
+    font-size: 1rem;
+    padding: 0;
+    gap: 0.7rem;
+    margin-left: 1rem;
+  }
+  .contact-icon {
+    padding: 0;
+  }
+  #links-con {
+    height: 0;
+    position: relative;
+  }
+  .nav-links-container {
+    margin-top: 2rem;
+    background-color: white;
+    color: white;
+  }
+  .nav-links:hover {
+    background-color: black;
+  }
+  i {
+    color: black;
+  }
+}
